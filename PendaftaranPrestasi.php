@@ -40,11 +40,11 @@ class PendaftaranPrestasi extends Pendaftaran
 
     public function hitungBiayaPendaftaran()
     {
-        // Implementasi pada Tahap 5
+        return $this->biaya_pendaftaran_dasar - 50000;
     }
 
     public function tampilkanInfoJalur()
     {
-        // Implementasi pada Tahap 5
+        return "Jalur Prestasi";
     }
 }

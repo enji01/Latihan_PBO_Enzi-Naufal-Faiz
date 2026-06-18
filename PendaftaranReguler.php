@@ -40,11 +40,11 @@ class PendaftaranReguler extends Pendaftaran
 
     public function hitungBiayaPendaftaran()
     {
-        // Implementasi pada Tahap 5
+        return $this->biaya_pendaftaran_dasar;
     }
 
     public function tampilkanInfoJalur()
     {
-        // Implementasi pada Tahap 5
+        return "Jalur Reguler";
     }
 }

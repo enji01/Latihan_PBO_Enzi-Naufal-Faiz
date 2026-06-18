@@ -40,11 +40,11 @@ class PendaftaranKedinasan extends Pendaftaran
 
     public function hitungBiayaPendaftaran()
     {
-        // Implementasi pada Tahap 5
+        return $this->biaya_pendaftaran_dasar * 1.25;
     }
 
     public function tampilkanInfoJalur()
     {
-        // Implementasi pada Tahap 5
+        return "Jalur Kedinasan";
     }
 }
