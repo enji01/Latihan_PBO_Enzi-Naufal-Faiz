@@ -38,7 +38,7 @@ class PendaftaranReguler extends Pendaftaran
         return mysqli_query($db, $query);
     }
 
-    public function hitungBiayaPendaftaran()
+    public function hitungTotalBiaya()
     {
         return $this->biaya_pendaftaran_dasar;
     }

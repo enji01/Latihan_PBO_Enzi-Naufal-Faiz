@@ -25,8 +25,7 @@ abstract class Pendaftaran
         $this->jalur_pendaftaran = $jalur_pendaftaran;
     }
 
-    abstract public function hitungBiayaPendaftaran();
+    abstract public function hitungTotalBiaya();
 
     abstract public function tampilkanInfoJalur();
 }
-?>
